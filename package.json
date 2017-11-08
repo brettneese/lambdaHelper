@@ -1,0 +1,21 @@
+{
+  "name": "lambda-helper",
+  "version": "1.00",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepush": "npm run test:depcheck; npm test",
+    "test": "echo \"Warning: no test specified\"",
+    "test:depcheck": "depcheck"
+  },
+  "author": "Brett Neese",
+  "license": "MIT",
+  "dependencies": {
+    "@hbkapps/logger": "^1.0.7",
+    "cls-middleware": "^1.1.0",
+    "continuation-local-storage": "^3.2.0",
+    "env-is-truthy": "0.0.2",
+    "express-winston": "^2.4.0",
+    "serverless-http": "^1.5.2"
+  }
+}
