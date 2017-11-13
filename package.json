@@ -11,7 +11,6 @@
   "author": "Brett Neese",
   "license": "MIT",
   "dependencies": {
-    "@hbkapps/logger": "^1.0.7",
     "cls-middleware": "^1.1.0",
     "continuation-local-storage": "^3.2.0",
     "env-is-truthy": "0.0.2",
