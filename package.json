@@ -11,6 +11,7 @@
   "author": "Brett Neese",
   "license": "MIT",
   "dependencies": {
+     "@hbkapps/logger": "git+https://github.com/bretneese/hbk-logger-js.git",
     "cls-middleware": "^1.1.0",
     "continuation-local-storage": "^3.2.0",
     "env-is-truthy": "0.0.2",
